@@ -1,0 +1,19 @@
+RecordID,FullName,DOB,Email,Phone,Address,Suburb,Postcode,AccountStatus,LastUpdated
+REC001,John Smith,1985-03-12,john.smith@email.com,0412 345 678,12 Smith Street,Riverside,3121,Active,2024-11-02
+REC002,MARY JONES,12/08/1990,mary.jones@email.com,(03) 9876 5432,45 High St,Lakeview,3122,ACTIVE,02/11/2024
+REC003,robert brown,1978-07-22,robert.brown@email,+61 3 9123 4567,8 Oak Avenue,Riverside,312,Active,2024-11-01
+REC004,Susan Taylor,03-15-1995,,0423456789,22 Pine Road,Lakeview,3122,A,2024-10-28
+REC005,,1982-01-10,david.lee@email.com,0434 567 890,7 Cedar Court,Hillside,3045,Active,2024-11-03
+REC006,John   Smith,1985-03-12,john.smith@email.com,0412345678,12 Smith Street,Riverside,3121,Active,2024-09-15
+REC007,Linda White,1990-06-30,linda.white@email.com,0445 678 901,19 Birch Lane,Hillside,3045X,Inactive,2024-10-30
+REC008,Michael Green,1975-12-05,michael.green@email.com,0456789012,3 Maple Drive,Lakeview,3122,CLOSED,2024-10-20
+REC009,sarah wilson,25/04/1988,sarah.wilson@email.com,0467 890 123,56 Elm Street,Riverside,3121,Active,2024-11-04
+REC010,James Clark,1992-09-18,james.clark@@email.com,0478901234,14 Willow Way,Hillside,3045,active,2024-10-25
+REC011,Patricia Lewis,1988-02-14,patricia.lewis@email.com,0489 012 345,31 Ash Court,Lakeview,,Pending,2024-11-05
+REC012,Thomas Hall,1980-11-11,thomas.hall@email.com,0490123456,9 Birch Lane,Hillside,3045,ACTIVE ,2024-10-15
+REC013,Nancy Allen,1973-05-09,,0401234567,27 Cedar Court,Riverside,3121,Inactive,2024-09-30
+REC014,Mark Young,1995-08-23,mark.young@email.com,04 1122 3344,18 Pine Road,Lakeview,3122,Active,2024-11-06
+REC015,mary jones,1990-08-12,mary.jones@email.com,0398765432,45 High Street,Lakeview,3122,Active,2024-11-07
+REC016,Kevin King,1983-04-17,kevin.king@email.com,0412 999 888,5 Oak Avenue,Riverside,3121,Unknown,2024-10-10
+REC017,Laura Scott,1991-10-02,laura.scott@email.com,0423 111 222,40 Maple Drive,Hillside,3045,Active,2024-11-08
+REC018,Daniel Adams,1987-12-30,daniel.adams@email.com,0434 222 333,11 Willow Way,Lakeview,3122,Active,not a date
