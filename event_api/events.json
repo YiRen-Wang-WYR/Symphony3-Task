@@ -1,9 +1,2 @@
 [
-  {
-    "eventId": "32c099e8-6c05-45f3-8574-ca964f4502fc",
-    "eventType": "NEW_FINE",
-    "customerId": "REC001",
-    "amount": 150.75,
-    "timestamp": "2024-11-10T10:30:00+00:00"
-  }
 ]
