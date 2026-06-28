@@ -1,0 +1,92 @@
+[
+  {
+    "recordId": "REC003",
+    "reasons": [
+      "Invalid postcode format"
+    ],
+    "originalRecord": {
+      "RecordID": "REC003",
+      "FullName": "robert brown",
+      "DOB": "1978-07-22",
+      "Email": "robert.brown@email",
+      "Phone": "+61 3 9123 4567",
+      "Address": "8 Oak Avenue",
+      "Suburb": "Riverside",
+      "Postcode": "312",
+      "AccountStatus": "Active",
+      "LastUpdated": "2024-11-01"
+    }
+  },
+  {
+    "recordId": "REC005",
+    "reasons": [
+      "Missing first name or last name"
+    ],
+    "originalRecord": {
+      "RecordID": "REC005",
+      "FullName": "",
+      "DOB": "1982-01-10",
+      "Email": "david.lee@email.com",
+      "Phone": "0434 567 890",
+      "Address": "7 Cedar Court",
+      "Suburb": "Hillside",
+      "Postcode": "3045",
+      "AccountStatus": "Active",
+      "LastUpdated": "2024-11-03"
+    }
+  },
+  {
+    "recordId": "REC007",
+    "reasons": [
+      "Invalid postcode format"
+    ],
+    "originalRecord": {
+      "RecordID": "REC007",
+      "FullName": "Linda White",
+      "DOB": "1990-06-30",
+      "Email": "linda.white@email.com",
+      "Phone": "0445 678 901",
+      "Address": "19 Birch Lane",
+      "Suburb": "Hillside",
+      "Postcode": "3045X",
+      "AccountStatus": "Inactive",
+      "LastUpdated": "2024-10-30"
+    }
+  },
+  {
+    "recordId": "REC011",
+    "reasons": [
+      "Missing postcode"
+    ],
+    "originalRecord": {
+      "RecordID": "REC011",
+      "FullName": "Patricia Lewis",
+      "DOB": "1988-02-14",
+      "Email": "patricia.lewis@email.com",
+      "Phone": "0489 012 345",
+      "Address": "31 Ash Court",
+      "Suburb": "Lakeview",
+      "Postcode": "",
+      "AccountStatus": "Pending",
+      "LastUpdated": "2024-11-05"
+    }
+  },
+  {
+    "recordId": "REC018",
+    "reasons": [
+      "Invalid or missing last updated date"
+    ],
+    "originalRecord": {
+      "RecordID": "REC018",
+      "FullName": "Daniel Adams",
+      "DOB": "1987-12-30",
+      "Email": "daniel.adams@email.com",
+      "Phone": "0434 222 333",
+      "Address": "11 Willow Way",
+      "Suburb": "Lakeview",
+      "Postcode": "3122",
+      "AccountStatus": "Active",
+      "LastUpdated": "not a date"
+    }
+  }
+]

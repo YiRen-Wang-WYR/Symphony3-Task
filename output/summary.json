@@ -1,0 +1,22 @@
+{
+  "totalRecordsProcessed": 18,
+  "successfullyTransformed": 13,
+  "rejected": 5,
+  "potentialDuplicateGroupsFlagged": 2,
+  "potentialDuplicates": [
+    {
+      "matchedRecords": [
+        "REC001",
+        "REC006"
+      ],
+      "reason": "Same name and date of birth"
+    },
+    {
+      "matchedRecords": [
+        "REC002",
+        "REC015"
+      ],
+      "reason": "Same name and date of birth"
+    }
+  ]
+}

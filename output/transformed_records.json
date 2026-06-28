@@ -1,0 +1,197 @@
+[
+  {
+    "ratepayerId": "REC001",
+    "firstName": "John",
+    "lastName": "Smith",
+    "dateOfBirth": "1985-03-12",
+    "email": "john.smith@email.com",
+    "phone": "0412 345 678",
+    "address": {
+      "line1": "12 Smith Street",
+      "suburb": "Riverside",
+      "postcode": "3121"
+    },
+    "status": "ACTIVE",
+    "lastUpdated": "2024-11-02"
+  },
+  {
+    "ratepayerId": "REC002",
+    "firstName": "Mary",
+    "lastName": "Jones",
+    "dateOfBirth": "1990-08-12",
+    "email": "mary.jones@email.com",
+    "phone": "(03) 9876 5432",
+    "address": {
+      "line1": "45 High St",
+      "suburb": "Lakeview",
+      "postcode": "3122"
+    },
+    "status": "ACTIVE",
+    "lastUpdated": "2024-11-02"
+  },
+  {
+    "ratepayerId": "REC004",
+    "firstName": "Susan",
+    "lastName": "Taylor",
+    "dateOfBirth": "1995-03-15",
+    "email": null,
+    "phone": "0423456789",
+    "address": {
+      "line1": "22 Pine Road",
+      "suburb": "Lakeview",
+      "postcode": "3122"
+    },
+    "status": "NEEDS_REVIEW",
+    "lastUpdated": "2024-10-28"
+  },
+  {
+    "ratepayerId": "REC006",
+    "firstName": "John",
+    "lastName": "Smith",
+    "dateOfBirth": "1985-03-12",
+    "email": "john.smith@email.com",
+    "phone": "0412345678",
+    "address": {
+      "line1": "12 Smith Street",
+      "suburb": "Riverside",
+      "postcode": "3121"
+    },
+    "status": "ACTIVE",
+    "lastUpdated": "2024-09-15"
+  },
+  {
+    "ratepayerId": "REC008",
+    "firstName": "Michael",
+    "lastName": "Green",
+    "dateOfBirth": "1975-12-05",
+    "email": "michael.green@email.com",
+    "phone": "0456789012",
+    "address": {
+      "line1": "3 Maple Drive",
+      "suburb": "Lakeview",
+      "postcode": "3122"
+    },
+    "status": "NEEDS_REVIEW",
+    "lastUpdated": "2024-10-20"
+  },
+  {
+    "ratepayerId": "REC009",
+    "firstName": "Sarah",
+    "lastName": "Wilson",
+    "dateOfBirth": "1988-04-25",
+    "email": "sarah.wilson@email.com",
+    "phone": "0467 890 123",
+    "address": {
+      "line1": "56 Elm Street",
+      "suburb": "Riverside",
+      "postcode": "3121"
+    },
+    "status": "ACTIVE",
+    "lastUpdated": "2024-11-04"
+  },
+  {
+    "ratepayerId": "REC010",
+    "firstName": "James",
+    "lastName": "Clark",
+    "dateOfBirth": "1992-09-18",
+    "email": null,
+    "phone": "0478901234",
+    "address": {
+      "line1": "14 Willow Way",
+      "suburb": "Hillside",
+      "postcode": "3045"
+    },
+    "status": "ACTIVE",
+    "lastUpdated": "2024-10-25"
+  },
+  {
+    "ratepayerId": "REC012",
+    "firstName": "Thomas",
+    "lastName": "Hall",
+    "dateOfBirth": "1980-11-11",
+    "email": "thomas.hall@email.com",
+    "phone": "0490123456",
+    "address": {
+      "line1": "9 Birch Lane",
+      "suburb": "Hillside",
+      "postcode": "3045"
+    },
+    "status": "ACTIVE",
+    "lastUpdated": "2024-10-15"
+  },
+  {
+    "ratepayerId": "REC013",
+    "firstName": "Nancy",
+    "lastName": "Allen",
+    "dateOfBirth": "1973-05-09",
+    "email": null,
+    "phone": "0401234567",
+    "address": {
+      "line1": "27 Cedar Court",
+      "suburb": "Riverside",
+      "postcode": "3121"
+    },
+    "status": "INACTIVE",
+    "lastUpdated": "2024-09-30"
+  },
+  {
+    "ratepayerId": "REC014",
+    "firstName": "Mark",
+    "lastName": "Young",
+    "dateOfBirth": "1995-08-23",
+    "email": "mark.young@email.com",
+    "phone": "04 1122 3344",
+    "address": {
+      "line1": "18 Pine Road",
+      "suburb": "Lakeview",
+      "postcode": "3122"
+    },
+    "status": "ACTIVE",
+    "lastUpdated": "2024-11-06"
+  },
+  {
+    "ratepayerId": "REC015",
+    "firstName": "Mary",
+    "lastName": "Jones",
+    "dateOfBirth": "1990-08-12",
+    "email": "mary.jones@email.com",
+    "phone": "0398765432",
+    "address": {
+      "line1": "45 High Street",
+      "suburb": "Lakeview",
+      "postcode": "3122"
+    },
+    "status": "ACTIVE",
+    "lastUpdated": "2024-11-07"
+  },
+  {
+    "ratepayerId": "REC016",
+    "firstName": "Kevin",
+    "lastName": "King",
+    "dateOfBirth": "1983-04-17",
+    "email": "kevin.king@email.com",
+    "phone": "0412 999 888",
+    "address": {
+      "line1": "5 Oak Avenue",
+      "suburb": "Riverside",
+      "postcode": "3121"
+    },
+    "status": "NEEDS_REVIEW",
+    "lastUpdated": "2024-10-10"
+  },
+  {
+    "ratepayerId": "REC017",
+    "firstName": "Laura",
+    "lastName": "Scott",
+    "dateOfBirth": "1991-10-02",
+    "email": "laura.scott@email.com",
+    "phone": "0423 111 222",
+    "address": {
+      "line1": "40 Maple Drive",
+      "suburb": "Hillside",
+      "postcode": "3045"
+    },
+    "status": "ACTIVE",
+    "lastUpdated": "2024-11-08"
+  }
+]

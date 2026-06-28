@@ -1,4 +1,6 @@
 import csv
+import json
+import os
 from datetime import datetime
 import re
 
@@ -139,21 +141,47 @@ def validate_record(record):
     
     return True, []
 
+def find_potential_duplicates(records):
+    seen = {}
+    duplicates = []
+
+    for record in records:
+        first_name = record["firstName"]
+        last_name = record["lastName"]
+        date_of_birth = record["dateOfBirth"]
+
+        key = (
+            first_name.lower(),
+            last_name.lower(),
+            date_of_birth
+        )
+
+        if key in seen:
+            duplicates.append({
+                "matchedRecords": [seen[key], record["ratepayerId"]],
+                "reason": "Same name and date of birth"
+            })
+        else:
+            seen[key] = record["ratepayerId"]
+
+    return duplicates
+
 def main():
     input_file = "source_data/legacy_crm_export.csv"
-    
+    output_folder = "output"
+
     valid_records = []
     rejected_records = []
 
     print("Starting to read the CSV file...")
-    
-    with open(input_file, mode='r', newline='', encoding='utf-8-sig') as file:
+
+    with open(input_file, mode="r", newline="", encoding="utf-8-sig") as file:
         reader = csv.DictReader(file)
-        print(reader.fieldnames)
+
         for row in reader:
             transformed = transform_record(row)
             is_valid, reasons = validate_record(transformed)
-            
+
             if is_valid:
                 valid_records.append(transformed)
             else:
@@ -162,12 +190,35 @@ def main():
                     "reasons": reasons,
                     "originalRecord": row
                 })
-            print("Total records processed:", len(valid_records) + len(rejected_records))
-            print("Successfully transformed:", len(valid_records))
-            print("Rejected:", len(rejected_records))
 
-            print("\nRejected records:")
-            for record in rejected_records:
-                print(record)
+    potential_duplicates = find_potential_duplicates(valid_records)
+
+    summary = {
+        "totalRecordsProcessed": len(valid_records) + len(rejected_records),
+        "successfullyTransformed": len(valid_records),
+        "rejected": len(rejected_records),
+        "potentialDuplicateGroupsFlagged": len(potential_duplicates),
+        "potentialDuplicates": potential_duplicates
+    }
+
+    os.makedirs(output_folder, exist_ok=True)
+
+    with open("output/transformed_records.json", mode="w", encoding="utf-8") as file:
+        json.dump(valid_records, file, indent=2)
+
+    with open("output/rejected_records.json", mode="w", encoding="utf-8") as file:
+        json.dump(rejected_records, file, indent=2)
+
+    with open("output/summary.json", mode="w", encoding="utf-8") as file:
+        json.dump(summary, file, indent=2)
+
+    print("Total records processed:", summary["totalRecordsProcessed"])
+    print("Successfully transformed:", summary["successfullyTransformed"])
+    print("Rejected:", summary["rejected"])
+    print("Potential duplicates flagged:", summary["potentialDuplicateGroupsFlagged"])
+    print("Output files created:")
+    print("- output/transformed_records.json")
+    print("- output/rejected_records.json")
+    print("- output/summary.json")
 if __name__ == "__main__":
     main()
